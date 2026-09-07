@@ -49,13 +49,13 @@ FastAPI auto-generates interactive API docs at `/docs`, where you can try out ea
 
 **Positive prediction:**
 
-![Swagger UI - positive prediction](positive.png)
+![Swagger UI - positive prediction](screenshots/positive.png)
 
 **Negative prediction:**
 
-![Swagger UI - negative prediction](negative.png)
+![Swagger UI - negative prediction](screenshots/negative.png)
 
-![cmd UI - negative prediction](cmd.png)
+![cmd UI - negative prediction](screenshots/cmd.png)
 
 ## Running Locally
 
@@ -98,7 +98,7 @@ sentiment-api/
 ├── main.py            # FastAPI app and route definitions
 ├── predictor.py        # Loads model/vocab and runs inference
 ├── model.py            # GRU model architecture
-├── index.html           # Simple standalone frontend
+├── test_api.py
 ├── requirements.txt
 └── artifacts/
     ├── config.json
